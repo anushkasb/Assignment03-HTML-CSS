@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+     
+  }
+  
+header{
+    display: flex;
+    flex-direction: row;
+background-color: black;
+justify-content: space-between;
+  align-items: center;
+  padding: 31px 83px;
+  height: 74px;
+  position: fixed;
+  width: 100vw;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.grow-list{
+    flex-grow: 1;
+}
+.list{
+   
+    display: flex;
+align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 64px;
+
+}
+.btn{
+    padding: 7px 28px;
+  background: #ba0cc5;
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.logo,.list-item{
+    cursor: pointer;
+}
+
+.main-section{
+    background-image: url("./assets/bg.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* object-fit: cover; */
+height:100vh;
+    width: 100vw;
+    text-align: center;
+/* overflow:hidden; */
+height: calc(100vh-74px);
+margin-top: 74px;
+
+   
+}
+.main-heading{
+    font-family: "Poppins";
+    font-style: normal;
+    margin-top: 100px;
+color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.main-content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-desc{
+    color: white;
+    margin-top: 5px;
+    font-weight: 100;
+    font-family: "Poppins";
+    font-style: normal;
+}
+.main-btn{
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 7px 10px;
+    margin-top: 64px;
+    cursor: pointer;
+    width: 200px;
+    
+
+}
+/* .main-section{ 
+    overflow: hidden;
+    height: calc(100vh-74px);
+    background-image: url("./assets/bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100vw;
+} */
